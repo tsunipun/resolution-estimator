@@ -1,8 +1,6 @@
-# Low Resolution Estimation (ML Portfolio)
+# Low Resolution Estimation
 
 A robust machine learning tool designed to estimate the **true resolution** and **quality score** of images. This model detects upscaled images (whether bicubic, bilinear, or nearest-neighbor) and predicts their effective resolution, distinguishing between native sharp details and interpolated pixels.
-
-![Demo](https://img.shields.io/badge/Demo-Gradio-orange) ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red)
 
 ## Key Features
 

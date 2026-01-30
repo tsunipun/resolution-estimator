@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+.venv/
+env/
+checkpoints/
+test_images/
+*.jpg
+*.png
+*.jpeg
+.DS_Store

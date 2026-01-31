@@ -5,7 +5,4 @@ __pycache__/
 env/
 checkpoints/
 test_images/
-*.jpg
-*.png
-*.jpeg
 .DS_Store

@@ -2,6 +2,9 @@
 
 A robust machine learning tool designed to estimate the **true resolution** and **quality score** of images. This model detects upscaled images (whether bicubic, bilinear, or nearest-neighbor) and predicts their effective resolution, distinguishing between native sharp details and interpolated pixels.
 
+![Inference Example](inference_example.jpg)
+*Example: The model detects that this 600x403 image has a quality score of ~0.45, estimating the true resolution to be ~269x180.*
+
 ## Key Features
 
 - **Robust Quality Scoring**: Predicts a score from `0.0` (pixelated/blurry) to `1.0` (sharp/native).
